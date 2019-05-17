@@ -1,0 +1,39 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import jdbctool.jdbctool;
+
+public class registeredDao {
+	public int registered(String user,String psw) {
+		Connection conn = null;
+		ResultSet executeQuery = null;
+		Statement createStatement = null;
+		int d = -1;
+		try {
+			conn = jdbctool.conn();
+			createStatement = conn.createStatement();
+			String sqlcx = "select user from user where user = "+user;
+			String sql = "insert into emp values("+user+","+psw+")";
+			executeQuery = createStatement.executeQuery(sqlcx);
+			if (!executeQuery.next()) {
+					int executeUpdate = createStatement.executeUpdate(sql);
+					if (executeUpdate!=0) {
+						d = 1; 
+					}
+			}else {
+				d = 0;
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			jdbctool.close(conn, createStatement, executeQuery);
+		}
+		return d;
+	}
+}

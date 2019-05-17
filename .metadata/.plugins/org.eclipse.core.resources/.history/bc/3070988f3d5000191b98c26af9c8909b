@@ -1,0 +1,13 @@
+package com;
+
+public class test {
+	public static void main(String[] args) {
+		clist clist = new clist("1");
+		clist clist2 = new clist("2");
+		clist clist3 = new clist("3");
+		clist clist4 = new clist("4");
+		clist.add(clist2).add(clist3).add(clist4);
+		clist.show();
+		//System.out.println(clist.getnext().getnext().getnext().getdata());
+	}
+}

@@ -1,0 +1,9 @@
+package com;
+
+public class TestMyException {
+	public static void main(String[] args) {
+		try{
+			MyAdd p1 = new MyAdd();
+		}
+	}
+}

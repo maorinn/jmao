@@ -1,0 +1,16 @@
+package com.bird;
+public class achieve implements letter{
+public static void signature() {
+	System.out.println("Ç©Ãû");
+}
+public void content() {
+	System.out.println("ÄÚÈİ");
+}
+public static String Loan(String Loan){
+	System.out.println("ÊğÃû£º"+Loan);
+	return null;
+}
+public static void main(String[] args) {
+	Loan("maoring");
+}
+}

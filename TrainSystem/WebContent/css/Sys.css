@@ -1,0 +1,81 @@
+BODY {
+	SCROLLBAR-ARROW-COLOR: #436976; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #eff0f7; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; SCROLLBAR-DARKSHADOW-COLOR: #f7f9fa; SCROLLBAR-BASE-COLOR: #dee7ec; SCROLLBAR-HIGHLIGHT-COLOR: #dee7ec; COLOR: black; SCROLLBAR-SHADOW-COLOR: #8cacbb; FONT-SIZE: 12px; SCROLLBAR-TRACK-COLOR: #f7f9fa; SCROLLBAR-3DLIGHT-COLOR: #8cacbb; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-BOTTOM: #aecde7 1px solid; BORDER-LEFT: #aecde7 1px solid; LINE-HEIGHT: normal; BACKGROUND-COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: "Tahoma", "Arial", "sans-serif"; FONT-SIZE: 12px; BORDER-TOP: #aecde7 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #aecde7 1px solid; PADDING-TOP: 1px
+}
+INPUT.button {
+	BORDER-BOTTOM: #aecde7 1px solid; BORDER-LEFT: #aecde7 4px solid; BACKGROUND-COLOR: #ffffff; HEIGHT: 20px; BORDER-TOP: #aecde7 1px solid; BORDER-RIGHT: #aecde7 1px solid; PADDING-TOP: 0px
+}
+TH {
+	FONT-FAMILY: "宋体"
+}
+DIV {
+	FONT-FAMILY: "宋体"
+}
+TEXTAREA {
+	FONT-FAMILY: "宋体"
+}
+FORM {
+	FONT-FAMILY: "宋体"
+}
+P {
+	FONT-FAMILY: "宋体"
+}
+.title {
+	FONT-FAMILY: 宋体; COLOR: #104a7b; FONT-SIZE: 10.5pt; FONT-WEIGHT: normal
+}
+TD {
+	HEIGHT: 20px
+}
+TABLE {
+	FONT-SIZE: 100%
+}
+A {
+	COLOR: #000000; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000066; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #666666; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #cc3300; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+.bgTitler {
+	BACKGROUND-IMAGE: url(../Images/bg_title.gif); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left top
+}
+.bor_1 {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.box1 {
+	BORDER-BOTTOM: #003399 1px solid; BORDER-LEFT: #003399 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #eeeeff; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #003399 1px solid; BORDER-RIGHT: #003399 1px solid; PADDING-TOP: 0px
+}
+.buttonstyle:hover {
+	BORDER-BOTTOM: #6ab94b 3px double; BORDER-LEFT: #94da78 3px double; COLOR: #999999; BORDER-TOP: #aedf9a 3px double; BORDER-RIGHT: #94da78 3px double; TEXT-DECORATION: none
+}
+TEXTAREA {
+	BORDER-BOTTOM: #aecde7 1px solid; BORDER-LEFT: #aecde7 1px solid; FONT-FAMILY: 宋体; FONT-SIZE: 9pt; BORDER-TOP: #aecde7 1px solid; BORDER-RIGHT: #aecde7 1px solid
+}
+SELECT {
+	FONT-FAMILY: 宋体; FONT-SIZE: 9pt
+}
+.button-a {
+	
+}
+.button-b {
+	
+}
+A.upback:link {
+	COLOR: navy; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.upback:hover {
+	COLOR: red; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.upback:visited {
+	COLOR: navy; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.table {
+	BORDER-BOTTOM-COLOR: #0099ff; BORDER-RIGHT-WIDTH: 1px; BACKGROUND-COLOR: #ffffff; BORDER-TOP-COLOR: #0099ff; BORDER-COLLAPSE: collapse; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-COLOR: #0099ff; BORDER-LEFT-COLOR: #0099ff; BORDER-LEFT-WIDTH: 1px
+}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>选择你要购买的商品</h1>
+<p> <a href="cartss?id=0">苹果</a></p>
+<p> <a href="cartss?id=1">芒果</a></p>
+<p> <a href="cartss?id=2">火龙果</a></p>
+<p> <a href="cartss?id=3">果果</a></p>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<center>
+		<form action="servlet002">
+		<p><input type="text" placeholder="邮箱" name="mail" /></p>
+		<p><input type="password" placeholder="密码" name="pws"/></p>
+		<input type="submit" value="确定" />
+		</form>
+</center>
+</body>
+</html>

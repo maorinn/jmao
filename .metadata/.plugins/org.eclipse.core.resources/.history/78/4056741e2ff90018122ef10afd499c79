@@ -1,0 +1,25 @@
+package com;
+
+public class tese1 {
+public static void main(String[] args) {
+	int i = 0,j = 0,t;
+	StringBuffer a = new StringBuffer();
+	String[] s = new String[100];
+	String c = "";
+	int[] arr = new int[100];
+	for(i=0;i<100;i++){
+		arr[i] = i+1;
+		a.append(i+",");
+	}
+	
+	for(i=0;i<a.length;i++){
+		
+			//a.deleteCharAt(i);
+		
+	}
+
+	System.out.println(a);
+
+
+}
+}

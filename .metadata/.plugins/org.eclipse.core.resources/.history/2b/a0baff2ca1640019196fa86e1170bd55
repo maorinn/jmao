@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>密码修改</title>
+<link type="text/css" rel="styleSheet"  href="css/Sys.css" />
+</head>
+<body>
+	<div>
+		<img alt="head1.jpg" src="img/head1.jpg" width="40%" height="45px">
+		<img alt="head2" src="img/head2.jpg" width="15%" height="45px">
+		<img alt="head3" src="img/head3.jpg" width="40%" height="45px">
+	</div>
+</body>
+</html>

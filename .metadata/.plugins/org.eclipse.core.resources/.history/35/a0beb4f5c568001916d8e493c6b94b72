@@ -1,0 +1,23 @@
+package com.Find;
+
+public class Find {
+	public int Half(int[] arr,int val) {
+		int star = 0;
+		int end = arr.length-1;
+		int min;
+		int re = -1;
+		while (star<=end) {
+			int min = (star+end)/2;
+			if (val!=arr[min]) {
+				if (arr[min]>val) {
+					star = min+1;
+				}else if (arr[min]<val) {
+					end = min-1;
+				}
+			}else {
+				re = min;
+			}
+		}
+			return re;
+		}
+}

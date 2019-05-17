@@ -1,0 +1,18 @@
+package com;
+
+public class tese {
+	
+public static void main(String[] args) {
+	Humanity s1 = new Humanity();
+	String name = s1.getName();
+	int age = s1.getAge();
+	int weight = s1.getWeight();
+	int height = s1.getHeight();
+	System.out.println("姓名:"+name);
+	System.out.println("年龄:"+age);
+	System.out.println("体重:"+weight);
+	System.out.println("身高:"+height);
+	s1.speak("真好,明天会更好");//说话函数调用
+}
+
+}

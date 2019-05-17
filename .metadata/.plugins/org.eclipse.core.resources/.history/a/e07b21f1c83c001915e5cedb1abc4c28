@@ -1,0 +1,19 @@
+package com.bot;
+
+import java.util.Scanner;
+
+public class test_bot {
+public static void main(String[] args) {
+	Scanner in = new Scanner(System.in);
+	System.out.println("你好请问有什么能够帮助您？");
+	String sr = in.nextLine();
+	switch (in.nextLine()) {
+	case "":
+		
+		break;
+
+	default:
+		break;
+	}
+}
+}

@@ -1,0 +1,10 @@
+1555897901916	Delete element
+1556075717239	Extract local variable 'parameter'
+1556075796312	Copy package
+1556075803220	Delete element
+1556076157092	Extract local variable 'prepareStatement'
+1556076221430	Extract local variable 'executeQuery'
+1556076566066	Extract local variable 'writer'
+1556076649068	Delete element
+1556076784601	Extract local variable 'isNewpsw'
+1556077098659	Extract local variable 'prepareStatement'

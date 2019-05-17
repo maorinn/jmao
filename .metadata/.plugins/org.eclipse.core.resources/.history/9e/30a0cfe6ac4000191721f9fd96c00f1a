@@ -1,0 +1,68 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class empmethod {
+	ArrayList<emp> arrayList = new ArrayList<emp>();
+	Scanner su = new Scanner(System.in);
+	//添加员工
+	public void emprr() {
+		System.out.println("请输入员工姓名:");
+		String name = su.nextLine();
+		System.out.println("请输入员工工号:");
+		int id = su.nextInt();
+		
+		System.out.println("请输入员工薪资:");
+		double Salary = su.nextDouble();
+		if (arrayList.add(new emp(id, name, Salary))) {
+			System.out.println("添加成功！");
+		}else {
+			System.out.println("添加失败！");
+		}
+	}
+	//判断id是否存在，存在返回id在集合的索引，否则返回-1
+	public int isemp(int id) {
+		for (int i = 0; i < arrayList.size(); i++) {
+			emp emp = arrayList.get(i);
+			if (emp.getEmpid() == id) {
+				id = i;
+			}else {
+				id = -1;
+			}
+		}
+		return id;
+		
+	}
+	//根据员工工号查询员工信息
+	public void empcx(int empid) {
+		int index = isemp(empid);
+		if (index!=-1) {
+			emp emp = arrayList.get(index);
+			System.out.println("工号为"+emp.getEmpid()+"员工信息是： 姓名"+emp.getName()+"薪资："+emp.getSalary());
+		}else {
+			System.out.println("系统中没有一个员工！");
+		}
+	}
+	//显示所有员工信息
+	public void empdisplay() {
+		for (int i = 0; i < arrayList.size(); i++) {
+			emp emp = arrayList.get(i);
+			System.out.println("第"+(i+1)+"个员工信息是： 姓名"+emp.getName()+"，工号"+emp.getEmpid()+"薪资："+emp.getSalary());
+		}
+	}
+	//根据员工工号修改薪资
+	public void modifySalary(int id,double salary) {
+		int index = isemp(id);//获取该员工下标
+		emp emp = arrayList.get(index);
+		emp.setSalary(salary);
+		System.out.println("修改成功！");
+	}
+	//删除指定id员工
+	public void empdelete(int id) {
+		int index = isemp(id);//获取该员工下标
+		arrayList.remove(index);
+		System.out.println("删除成功！");
+	}
+	
+}

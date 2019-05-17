@@ -1,0 +1,8 @@
+package com;
+
+public class empmethod {
+	//添加员工函数
+	public return_type name() {
+		
+	}
+}

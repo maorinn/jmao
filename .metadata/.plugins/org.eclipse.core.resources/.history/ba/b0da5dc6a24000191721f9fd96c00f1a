@@ -1,0 +1,30 @@
+package com;
+
+import java.util.ArrayList;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<emp> arrayList = new ArrayList<emp>();
+		while (true) {
+		System.out.println("请选择以下功能");
+		System.out.println("1.添加员工");
+		System.out.println("2.查看所有员工信息");
+		System.out.println("3.根据员工工号查询指定的员工信息");
+		System.out.println("4.根据员工工号修改该员工薪水");
+		System.out.println("5.根据员工工号删除该员工");
+			switch (key) {
+			case value:
+				
+				break;
+
+			default:
+				break;
+			}
+			
+		}
+
+	}
+
+}

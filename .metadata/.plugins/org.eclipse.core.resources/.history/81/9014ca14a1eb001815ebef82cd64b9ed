@@ -1,0 +1,20 @@
+package com.bird;
+public class achieve implements letter{
+public static String signature(String signature) {
+	System.out.println("Ç©Ãû:"+signature);
+	return null;
+}
+public static String content(String content) {
+	System.out.println("ÄÚÈÝ:"+content);
+	return null;
+}
+public static String Loan(String Loan){
+	System.out.println("ÊðÃû£º"+Loan);
+	return null;
+}
+public static void main(String[] args) {
+	Loan("maoring");
+	signature("Â¬±¾Î°»¹ÊÇÅ£±Æ");
+	content("£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£¡");
+}
+}

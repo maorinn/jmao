@@ -1,0 +1,26 @@
+package com.bot;
+
+import java.util.Scanner;
+
+public class test_bot {
+public static void main(String[] args) {
+	while (true) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("你好请问有什么能够帮助您？");
+		String sr = in.nextLine();
+		switch (in.nextLine()) {
+		case "我叫某某":
+			System.out.println("你好某某");
+		case "请问你叫什么名？":
+			System.out.println("我叫小明，很高兴认识你！");
+		case "再见":
+			System.out.println("再见");
+		break;
+		default:
+			System.out.println("对不起，我听不懂您说的，能换个话题嘛？");
+		}
+		
+	}
+
+}
+}

@@ -1,0 +1,14 @@
+1554963210394	Delete element
+1554964382279	Extract local variable 'conn'
+1554972252252	Extract local variable 'delete'
+1554973287032	Extract local variable 'update'
+1555050626888	Extract local variable 'parameter'
+1555050650537	Extract local variable 'parameter2'
+1555050763396	Extract local variable 'conn'
+1555050779436	Extract local variable 'createStatement'
+1555051229914	Extract local variable 'executeQuery'
+1555052091800	Rename resource 'NewFile.html'
+1555052180973	Delete element
+1555052781343	Extract local variable 'executeUpdate'
+1555052871798	Extract local variable 'executeQuery2'
+1555052963243	Extract local variable 'executeUpdate'

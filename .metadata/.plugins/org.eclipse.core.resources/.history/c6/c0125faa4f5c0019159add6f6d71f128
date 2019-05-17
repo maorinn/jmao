@@ -1,0 +1,28 @@
+package student;
+
+import java.util.ArrayList;
+
+public class arr {
+public static void main(String[] args) {
+	student student1 = new student("уе1", 10, 10);
+	student student2 = new student("уе2", 18, 8);
+	student student3 = new student("уе3", 14, 18);
+	ArrayList<student> arrayList = new ArrayList<>();
+	arrayList.add(student1);
+	arrayList.add(student2);
+	arrayList.add(student3);
+	student cc = null;
+	for (int i = 0; i < arrayList.size(); i++) {
+		cc = arrayList.get(i);
+		for (int j = 1; j < arrayList.size(); j++) {
+			if (cc.getAge()<arrayList.get(j).getAge()) {
+				arrayList.set(i, arrayList.get(j));
+				arrayList.set(j, cc);
+			}
+		}
+	}
+	for (int i = 0; i < arrayList.size(); i++) {
+		System.out.println(arrayList.get(i));
+	}
+}
+}

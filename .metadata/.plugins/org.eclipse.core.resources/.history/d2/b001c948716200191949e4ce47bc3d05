@@ -1,0 +1,10 @@
+package com;
+
+import java.util.ArrayList;
+
+public class zzzzz {
+	ArrayList<Integer> arrayList = new ArrayList<>();
+	ArrayList<Integer> arrayList1 = new ArrayList<>();
+	
+	
+}

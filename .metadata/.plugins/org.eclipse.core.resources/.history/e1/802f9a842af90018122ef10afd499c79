@@ -1,0 +1,22 @@
+package com;
+
+public class tese1 {
+public static void main(String[] args) {
+	int i = 0,j = 0,t;
+	String a = new String();
+	String[] arr = new String[100];
+	for(i=0;i<100;i++){
+		a.concat(arr[i]);
+		System.out.println(arr[i]);
+	}
+	for(i=0;i<arr.length;i++){
+		if(i%3 ==0){
+			
+		}
+	}
+
+	
+
+
+}
+}

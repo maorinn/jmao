@@ -1,0 +1,32 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import jdbctool.jdbctool;
+
+public class loginDao {
+	public boolean isLogon(String user,String psw) {
+		boolean d = false;
+		Connection conn = null;
+		ResultSet executeQuery = null;
+		Statement createStatement = null;
+		try {
+			conn = jdbctool.conn();
+			createStatement = conn.createStatement();
+			String sql = "select email,password from user where email = "+user+" and password = "+psw+"";
+			executeQuery = createStatement.executeQuery(sql);
+			if (executeQuery.next()) {
+				d = true;
+			}
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			jdbctool.close(conn, createStatement, executeQuery);
+		}
+		return d;
+	}
+}

@@ -1,0 +1,30 @@
+package com;
+
+public class MyRunnable implements Runnable {
+	int p = 100;
+	public void run() {
+		as();
+	}
+	public void as(){
+		
+			while(p>1){
+				p--;
+				System.out.println(Thread.currentThread().getName()+"Âô"+p);
+				try {
+					Thread.sleep(10);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+				
+			}
+			System.out.println("Âô¹âÁË");
+
+		
+		}
+
+	
+
+}
+

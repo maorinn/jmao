@@ -1,0 +1,6 @@
+1556521431596	Delete element
+1556522339418	Delete element
+1556522477465	Delete element
+1556522531790	Extract local variable 'conn'
+1556522639979	Extract local variable 'prepareStatement'
+1556522653781	Extract local variable 'executeQuery'

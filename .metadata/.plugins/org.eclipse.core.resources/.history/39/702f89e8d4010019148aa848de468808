@@ -1,0 +1,26 @@
+package com;
+
+public class MyRunnable implements Runnable {
+private int p = 100;
+public int getp() {
+	return this.p;
+}
+	@Override
+	public synchronized void run() {
+		while(this.p>1){
+			p--;
+			System.out.println(Thread.currentThread().getName()+"Âô"+p);
+		}
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if (this.p<1) {
+			System.out.println("Âô¹âÁË");
+		}
+		
+	}
+
+}

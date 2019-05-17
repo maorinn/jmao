@@ -1,0 +1,45 @@
+package com;
+
+import java.util.ArrayList;
+
+public class TestMyException {
+public static void main(String[] args) {
+	int i = 0,j = 0,t;
+	StringBuffer a = new StringBuffer();
+	String[] s = new String[100];
+	String c = "";
+	int[] arr = new int[100];
+	ArrayList<String[]> list = new ArrayList<String[]>();
+	for(i=0;i<100;i++){
+		//arr[i] = i+1;
+		a.append(i+1+",");
+		
+	}
+	
+c = a.substring(0);
+s = c.split(",");
+list.add(s);
+while (s.length>1) {
+	for(i=1;i<s.length;i++){
+		if(i%3 == 0){
+			s[i-1] = "";
+		}
+		for(i=0;i<s.length;i++){
+			a.append(s[i]);
+		}
+		c = a.toString();
+		s = c.split("");
+		//a.deleteCharAt(i);
+		System.out.print(s.length);
+	}
+	
+}
+
+for(i=0;i<s.length;i++){
+	System.out.print(s[i]);
+}
+
+
+
+}
+}

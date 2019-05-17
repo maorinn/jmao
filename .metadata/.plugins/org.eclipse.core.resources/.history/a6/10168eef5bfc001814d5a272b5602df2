@@ -1,0 +1,18 @@
+package com;
+public class MyAdd {
+private int x;
+public void add(int x)throws MyException{
+	if(x<1||x>100){
+		throw new MyException("000");
+	}else{
+		this.x = x;
+	}
+	
+}
+public int getX(){
+	return x;
+}
+public MyAdd(String name,int age)throws MyException{
+	
+}
+}

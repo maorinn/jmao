@@ -1,0 +1,12 @@
+package com;
+
+public class tese1 {
+public static void main(String[] args) {
+	int h=100,s = 0,i;
+	for(i=1;i<=10;i++){
+		s = s+h+h/2;
+		h=h/2;
+	}
+	System.out.println("第十次反弹"+h+"米;\t第十次落地时共经过"+s+"米");
+}
+}

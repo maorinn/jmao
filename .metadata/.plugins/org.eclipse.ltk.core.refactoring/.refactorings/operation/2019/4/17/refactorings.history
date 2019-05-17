@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;half&apos; from expression &apos;find.Half(arr,val)&apos;&#x0D;&#x0A;- Original project: &apos;operation&apos;&#x0D;&#x0A;- Variable name: &apos;half&apos;&#x0D;&#x0A;- Destination method: &apos;com.Find.test.main()&apos;&#x0D;&#x0A;- Variable expression: &apos;find.Half(arr,val)&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;half&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;com.Find{test.java" name="half" replace="true" selection="199 0" stamp="1556353405541" version="1.0"/>
+</session>

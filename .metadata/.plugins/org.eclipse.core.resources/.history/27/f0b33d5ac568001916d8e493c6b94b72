@@ -1,0 +1,8 @@
+package com.Find;
+
+public class Find {
+	public int Half(int[] arr,int val) {
+		
+		return 1;
+	}
+}

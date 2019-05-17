@@ -1,0 +1,10 @@
+1557988519095	Delete element
+1557988524441	Delete element
+1557988599685	Extract local variable 'parameter'
+1557988728734	Extract local variable 'logon'
+1557989029974	Extract local variable 'session'
+1557989282628	Extract local variable 'writer'
+1557991841460	Extract local variable 'session'
+1557991866895	Extract local variable 'attribute'
+1557992050942	Extract local variable 'requestURI'
+1557992099348	Extract local variable 'split'

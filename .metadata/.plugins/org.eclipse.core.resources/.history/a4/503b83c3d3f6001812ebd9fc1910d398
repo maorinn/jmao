@@ -1,0 +1,21 @@
+package com;
+
+import javax.swing.JOptionPane;
+
+public class tese {
+	
+public static void main(String[] args) {
+	int i = 0;
+	String regex = "[a-zA-Z]\\w*[@]\\d+[.]\\w{2,}";
+	for(i=0;i<=5;i++){
+		String input = JOptionPane.showInputDialog("请输入电子邮箱地址:");
+		if(input.matches(regex)){
+			System.out.println(input+"是有效的电子邮件！");
+		}else{
+			System.out.println(input+"不是是有效的电子邮件！");
+		}
+	}
+	
+}
+
+}

@@ -1,0 +1,15 @@
+package student;
+
+import java.util.ArrayList;
+
+public class arr {
+public static void main(String[] args) {
+	student student1 = new student("уе1", 10, 1);
+	student student2 = new student("уе1", 18, 8);
+	student student3 = new student("уе1", 14, 18);
+	ArrayList<student> arrayList = new ArrayList<>();
+	arrayList.add(student1);
+	arrayList.add(student2);
+	arrayList.add(student3);
+}
+}
